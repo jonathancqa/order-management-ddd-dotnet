@@ -65,5 +65,7 @@ public class Order : BaseEntity
         SetUpdated();
     }
 
-    private Order() {}
+    public Order() {}
+
+    private Order(bool _) {}
 }
